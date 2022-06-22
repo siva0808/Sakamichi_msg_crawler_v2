@@ -213,6 +213,6 @@ app.use("/404", (req, res) => {
 
 app.listen(PORT, () =>
   console.log(
-    "Reader is ready. Please input http://localhost:3000/ at browser to surfer messages"
+    `Reader is ready. Please input http://localhost:${PORT}/ at browser to surfer messages`
   )
 );
